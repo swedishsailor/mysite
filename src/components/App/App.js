@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from './App.scss';
 import PropTypes from 'prop-types';
+import Header from '../Header/Header';
 
 class App extends React.Component{
     render(){
         return(
             
                 <main>
-                    <h1> XDD </h1>
+                    <Header></Header>
                 </main>
             );
         }
