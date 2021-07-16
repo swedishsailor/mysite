@@ -1,16 +1,27 @@
-section {
-    background-image: url(../../images/purplesky.jpg);
+.header {
+    background-image: url("https://i.postimg.cc/d3pm3DXF/pexels-krivec-ales-552789.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
     width: 100%;
-    margin-top: 0;
+    height:380px;
 }
 
 
 .mainHeader {
-    font-size:42px;
+    font-size:108px;
     text-align: center;
+    color:#fff;
+    margin-top: 3%;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 200;
 }
 
 .nameHeader {
     text-align: center;
-    font-size:28px;
+    font-size:35px;
+    color:#fff;
+    margin-top: -55px;
+    font-family: 'Quintessential', cursive;
+    font-weight: 200;
 }

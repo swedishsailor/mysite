@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './App.scss';
 import PropTypes from 'prop-types';
 import Header from '../Header/Header';
+import Games from '../Games/Games';
+import PixelArt from '../PixelArt/PixelArt';
 
 class App extends React.Component{
     render(){
@@ -9,6 +11,8 @@ class App extends React.Component{
             
                 <main>
                     <Header></Header>
+                    <Games></Games>
+                    <PixelArt></PixelArt>
                 </main>
             );
         }

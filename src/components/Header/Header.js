@@ -4,7 +4,8 @@ import styles from './Header.scss';
 class Header extends React.Component{
     render(){
         return(
-            <section>
+            <section className={styles.header}>
+                <br/>
                 <h1 className={styles.mainHeader}> SwedishSailor </h1>
                 <h3 className={styles.nameHeader}>Kamil Żygowski</h3>
             </section>
