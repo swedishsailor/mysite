@@ -5,10 +5,13 @@
 }
 
 .gamesheader {
+    border-bottom: solid 2px #ff6b6b;
     margin-top: 0px;
     text-align: center;
     font-family: 'Quintessential', cursive;
     font-size: 29px;
+    width: 6%;
+    margin-left:46%
 }
 
 .gamesContainer {
@@ -39,13 +42,13 @@
 }
 
 .gamesDescription {
-    background-color: #fff;
+    background-color: #8395a7;
     width: 350px;
     height: 440px;
     position:absolute;
     margin-top:-15%;
     margin-left:-123px;
-    opacity:0.72;
+    opacity:0.82;
     text-align: center;
     display: none;
     transition: width 1.2s;
@@ -62,5 +65,7 @@
 }
 
 .gamesDescriptionText {
+    margin-top: 15px;
     margin-inline: 4%;
+    color: #fff;
 }
