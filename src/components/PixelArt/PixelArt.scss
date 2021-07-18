@@ -1,5 +1,8 @@
 .pixelArt {
-    background-color: #0abde3;
+    background:url("https://i.postimg.cc/d3L4LJ2P/testkostka.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 420px;
     width: 100%;
 }
@@ -12,4 +15,37 @@
     border-bottom: solid 2px #ff6b6b;
     width:6%;
     margin-left: 46%;
+}
+
+.carouselImg {
+ 
+}
+
+.carouselDiv {
+    width: 128px;
+    height: 100%;
+    margin-left: 35%;
+}
+
+.carousel {
+    margin-top:-33px;
+    position:absolute;
+    width: 20%;
+    text-align: center;
+    margin-left: 19%;
+
+}
+
+.carousel2 {
+    position:absolute;
+    width: 20%;
+    text-align: center;
+    margin-left: 38%;
+}
+
+.carousel3 {
+    position:absolute;
+    width: 20%;
+    text-align: center;
+    margin-left: 63%;
 }
