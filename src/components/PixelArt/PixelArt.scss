@@ -1,51 +1,49 @@
 .pixelArt {
-    background:url("https://i.postimg.cc/d3L4LJ2P/testkostka.png");
+    /*background: url("https://i.postimg.cc/d3L4LJ2P/testkostka.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 440px;
-    width: 100%;
+    background-position: center;*/
+    height: 480px;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .pixelartHeader {
     text-align: center;
-    margin-top:0;
-    font-family: 'Quintessential', cursive;
+    margin-top: 0;
+    font-family: "Quintessential", cursive;
     font-size: 30px;
     border-bottom: solid 2px #ff6b6b;
-    width:6%;
+    width: 6%;
     margin-left: 46%;
-}
-
-.carouselImg {
- 
+    width: 110px;
 }
 
 .carouselDiv {
     width: 128px;
     height: 100%;
-    margin-left: 44%;
+    margin-left: 46%;
     margin-bottom: 3%;
 }
 
+.pixelArtContainer {
+}
+
 .carousel {
-   
-    position:absolute;
+    position: absolute;
     width: 80%;
     text-align: center;
-    margin-left: 10%;
-
 }
 
 .carousel2 {
-    position:absolute;
+    position: absolute;
     width: 20%;
     text-align: center;
     margin-left: 38%;
 }
 
 .carousel3 {
-    position:absolute;
+    position: absolute;
     width: 20%;
     text-align: center;
     margin-left: 63%;

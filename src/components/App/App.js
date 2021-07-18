@@ -7,16 +7,19 @@ import PixelArt from '../PixelArt/PixelArt';
 import PhotoShop from '../PhotoShop/PhotoShop';
 import Footer from '../Footer/Footer';
 
+
 class App extends React.Component{
     render(){
         return(
             
                 <main>
+                    <div className={styles.image}>
                     <Header></Header>
+                    
                     <Games></Games>
                     <PixelArt></PixelArt>
                     <Footer></Footer>
-                   
+                    </div>
                 </main>
             );
         }
