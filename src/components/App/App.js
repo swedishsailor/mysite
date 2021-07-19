@@ -15,8 +15,9 @@ class App extends React.Component{
                 <main>
                     <div className={styles.image}>
                     <Header></Header>
-                    
-                    <Games></Games>
+                    {/*<img className={styles.gameImg} src="https://i.postimg.cc/SK9yPQrZ/games.png"></img>*/}
+                   <Games></Games>
+                   
                     <PixelArt></PixelArt>
                     <Footer></Footer>
                     </div>
