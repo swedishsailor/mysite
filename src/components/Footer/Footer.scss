@@ -4,8 +4,23 @@
 
 .footerText {
     margin-top:0;
-    font-size: 32px;
+    font-size: 39px;
     text-align: center;
-    font-family: 'Oleo Script', cursive;
+    font-family: 'Katibeh', cursive;
     color:#fff;
 }
+
+.footerText{
+    color: yellow;
+    text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+    animation: glow 3s linear infinite;
+}
+
+@keyframes glow {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }

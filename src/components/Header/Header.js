@@ -6,7 +6,7 @@ class Header extends React.Component{
         return(
             <section className={styles.header}>
                 <br/>
-                <h1 className={styles.mainHeader}> SwedishSailor </h1>
+                <h1 className={styles.mainHeader}> SwedishSailor</h1>
                 <h3 className={styles.nameHeader}>Kamil Żygowski</h3>
             </section>
         )
