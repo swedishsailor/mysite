@@ -11,8 +11,9 @@ class PixelArt extends React.Component {
                     <br />
                     <br />
                     <br />
-                    <h1 className={styles.pixelartHeader}> Pixel Art </h1>
-                    <Carousel showArrows={true} className={styles.carousel} swipeable={true} autoPlay={3500}>
+                    <h1 className={styles.pixelartHeader}> PIXEL ART </h1>
+                    <br />
+                    <Carousel showArrows={true} className={styles.carousel} swipeable={true} autoPlay={3500} infiniteLoop={true}>
                         <div className={styles.carouselDiv}>
                             <img className={styles.carouselImg} src="https://i.postimg.cc/85MGX7Ln/de-coin.gif"></img>
                         </div>

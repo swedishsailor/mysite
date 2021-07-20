@@ -12,7 +12,7 @@ class App extends React.Component{
     render(){
         return(
             
-                <main>
+                <main className={styles.mainApp}>
                     <div className={styles.image}>
                     <Header></Header>
                     {/*<img className={styles.gameImg} src="https://i.postimg.cc/SK9yPQrZ/games.png"></img>*/}
