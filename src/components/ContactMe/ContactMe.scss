@@ -1,0 +1,89 @@
+.contactMeSectiom {
+    height:520px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 45%;
+}
+
+.header {
+    border-bottom: solid 2px #ff6b6b;
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    font-size: 29px;
+    width: 11%;
+    margin-left:43.8%;
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.submit {
+    height:45px;
+    width:150px;
+    margin-left:40%;
+    background:#78e08f;
+    border-radius: 45px;
+    font-size: 21px;
+    transition:0.5s;
+    font-weight: 500;
+}
+
+
+.textarea{
+    height: 120px;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 21px;
+    background: #111;
+    color:#fff;
+    border-radius: 10px;
+    resize:none;
+    outline: none;
+    font-family: Arial;
+    padding:20px 40px;
+}
+
+
+.input {
+    height: 35px;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 21px;
+    background: #111;
+    color:#fff;
+    border-radius: 10px;
+    outline: none;
+}
+
+.input:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+.textarea:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+.header {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+    animation: glow 3s linear infinite;
+}
+
+@keyframes glow {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }

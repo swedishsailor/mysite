@@ -1,3 +1,5 @@
+@import "../PixelArt/PixelArt.scss";
+
 .games {
     height: 320px;
     width: 100%;
@@ -16,7 +18,7 @@
 }
 
 .gamesheader{
-    color: yellow;
+    color: #fff;
     text-shadow: 0 0 15px yellow, 0 0 25px yellow;
     animation: glow 3s linear infinite;
 }
@@ -59,20 +61,25 @@
 
 .gamesDescription {
     
-background: rgb(102,255,0);
-background: linear-gradient(90deg, rgba(102,255,0,0.8) 0%, rgba(79,255,176,0.8) 42%, rgba(0,212,255,0.8) 100%);
-    width: 350px;
-    height: 380px;
-    position:absolute;
-    margin-top:-13%;
-    margin-left:-123px;
+background: #222f3e;
+    width: 100%;
+    position:fixed;
+    z-index: 5;
+    background: #222f3e;
+    width: 1440px;
+    margin-left: -742%;
+    margin-top:20px;
+
+
    // opacity:0.82;
     font-size: 17px;
     text-align: center;
-    display: none;
-    transition: width 1.2s;
+    height: 0px;
+    overflow: hidden;
+    transition: width 3.2s;
     transition-timing-function: ease;
-    border-radius: 33%;
+    border-radius: 27%;
+
 }
 
 .gamesImg:hover {
@@ -80,8 +87,20 @@ background: linear-gradient(90deg, rgba(102,255,0,0.8) 0%, rgba(79,255,176,0.8) 
 
 }
 
-.gamesImg:hover + .gamesDescription {
+.gamesImg:hover + .gamesDescription{
     display: block;
+    position: relative;
+    height: 300px;
+
+}
+
+.gamesImg:hover + .games {
+    height: 540px;
+    padding-bottom: 320px;
+}
+
+.gamesImg:hover + .pixelArt {
+    margin-top:320px;
 }
 
 .gamesDescriptionText {
@@ -95,8 +114,26 @@ background: linear-gradient(90deg, rgba(102,255,0,0.8) 0%, rgba(79,255,176,0.8) 
     margin-inline: 4%;
     font-weight: 1000;
     text-decoration: underline;
+    color:#1dd1a1;
 }
 
 .descriptionImg {
-    width:94%;
+    width:33%;
+    height: 100%;
+    margin-left: -73%;
+    margin-top:-5.6%;
 }
+
+.third {
+    margin-left:-585%;
+}
+
+.second {
+    margin-left: -427%;
+}
+
+.first{
+    margin-left: -269%;
+}
+
+

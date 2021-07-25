@@ -9,7 +9,7 @@ class Games extends React.Component {
                 <h1 className={styles.gamesheader}> GAMES </h1>
                 <div className={styles.gamesContainer}>
                     <div className={styles.game}><img className={styles.gamesImg} src="https://i.postimg.cc/hjvDLsvg/sd-Sorcerer.png"></img>
-                        <div className={styles.gamesDescription}>
+                        <div className={`${styles.gamesDescription} ${styles.first}`}>
                             <br />
                             <h3 className={styles.gamesDescriptionText}> Salve Devito </h3>
                             <img className={styles.descriptionImg} src="https://i.postimg.cc/FH745khH/salvedevito3.png"></img>
@@ -20,7 +20,7 @@ class Games extends React.Component {
                         </div>
                     </div>
                     <div className={styles.game}><img className={styles.gamesImg} src="https://i.postimg.cc/XNKHKWMj/dimension-eye-logo.png"></img>
-                        <div className={styles.gamesDescription}>
+                        <div className={`${styles.gamesDescription} ${styles.second}`}>
                             <br />
                             <h3 className={styles.gamesDescriptionText}> Dimension Eye </h3>
                             <img className={styles.descriptionImg} src="https://i.postimg.cc/gjvCs3yg/DE.png"></img>
@@ -30,7 +30,7 @@ class Games extends React.Component {
                         </div>
                     </div>
                     <div className={styles.game}><img className={styles.gamesImg} src="https://i.postimg.cc/nVv1J8v9/ml21.png"></img>
-                        <div className={styles.gamesDescription}>
+                        <div className={`${styles.gamesDescription} ${styles.third}`}>
                             <br />
                             <h3 className={styles.gamesDescriptionText}> Milion Lasers </h3>
                             <img className={styles.descriptionImg} src="https://i.postimg.cc/2y2wC6Cz/ML.png"></img>
@@ -40,14 +40,18 @@ class Games extends React.Component {
                         </div>
                     </div>
                     <div className={styles.game}><img className={styles.gamesImg} src="https://i.postimg.cc/8PPHhrB4/Skull-avatar.png"></img>
-                        <div className={styles.gamesDescription}>
+                    <div className={styles.gamesDescription}>
+                        <div className={styles.gamesDescriptioninner}>
                             <br />
                             <h3 className={styles.gamesDescriptionText}> Salve Devito - Heroes </h3>
                             <p className={styles.gamesDescriptionText}> Salve devito is a .....</p>
                             <p className={styles.gamesDescriptionText2}> Click for more info</p>
                         </div>
+                        </div>
                     </div>
+                   
                 </div>
+
             </section>
         )
     }
