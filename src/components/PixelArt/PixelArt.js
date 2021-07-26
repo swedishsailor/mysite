@@ -59,6 +59,9 @@ class PixelArt extends React.Component {
                         <div className={styles.carouselDiv}>
                             <img className={styles.carouselImg} src="https://i.postimg.cc/N0RMvXSZ/trawka2.png"></img>
                         </div>
+                        <div className={styles.carouselDiv}>
+                            <img className={styles.carouselImg} src="https://i.postimg.cc/mk2VdqzB/DE-Brick-Spikes4.png"></img>
+                        </div>
                     </Carousel>
                 </div>
             </section>
