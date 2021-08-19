@@ -9,6 +9,17 @@ const baseConfig = () => ({
     path: path.join(__dirname, 'dist'),
     filename: 'scripts_bundle.js',
   },
+  {
+      test: /\.(mov|mp4)$/,
+      use: [
+        {
+          loader: 'file-loader',
+          options: {
+            name: '[path][name].[ext]'
+          }  
+        }
+      ]
+    },
   devtool: 'source-map',
   module: {
     rules: [
