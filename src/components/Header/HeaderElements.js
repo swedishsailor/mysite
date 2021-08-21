@@ -6,7 +6,7 @@ display:flex;
 justify-content: center;
 align-items: center;
 padding: 0 30px;
-height:840px;
+height:880px;
 position:relative;
 z-index:1;
 `;
@@ -22,11 +22,12 @@ height:100%;
 overflow: hidden;
 `;
 
-export const VideBackground = styled.video`
+export const VideoBackground = styled.video`
 width:100%;
 height:100%;
 -o-object-fit: cover;
 object-fit:cover;
 background:#232a34;
 position:absolute;
+margin-top:-20px;
 `;

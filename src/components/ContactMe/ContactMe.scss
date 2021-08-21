@@ -1,10 +1,10 @@
 .contactMeSectiom {
-    height:520px;
+    height:560px;
     width: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin-bottom: 3%;
+    background: linear-gradient(270deg, rgba(116,125,140,1) 0%, rgba(87,96,111,1) 35%, rgba(51,57,71,1) 63%, rgba(47,53,66,1) 68%, rgba(47,53,66,1) 72%, rgba(47,53,66,1) 100%);
 }
 
 .form {
@@ -12,6 +12,13 @@
     flex-direction: column;
     margin: 0 auto;
     width: 45%;
+
+    @media screen and (max-width: 768px) {
+        margin-top:33px;
+        margin-left: 12.8%;
+        width: 75%;
+        
+    }
 }
 
 .header {
@@ -24,6 +31,12 @@
     margin-left:43.8%;
     color: #fff;
     margin-bottom: 2%;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 22.8%;
+        width: 55%;
+        
+    }
 }
 
 .submit {
@@ -35,6 +48,13 @@
     font-size: 21px;
     transition:0.5s;
     font-weight: 500;
+    color:#fff;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 25px;
+        margin-left: 21.8%;
+        width: 55%;       
+    }
 }
 
 

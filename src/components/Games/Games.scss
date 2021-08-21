@@ -1,36 +1,68 @@
 @import "../PixelArt/PixelArt.scss";
 
 .games {
+    padding-top: 24px;
     height: 320px;
     width: 100%;
     position: relative;
+    background: linear-gradient(
+        270deg,
+        rgba(116, 125, 140, 1) 0%,
+        rgba(87, 96, 111, 1) 35%,
+        rgba(51, 57, 71, 1) 63%,
+        rgba(47, 53, 66, 1) 68%,
+        rgba(47, 53, 66, 1) 72%,
+        rgba(47, 53, 66, 1) 100%
+    );
+    margin-top: -45px;
+
+    @media screen and (max-width: 768px) {
+        height: 960px;
+    }
+
+    @media screen and (max-width: 380px) {
+        height: 960px;
+    }
 }
 
 .gamesheader {
     border-bottom: solid 2px #ff6b6b;
     margin-top: 0px;
     text-align: center;
-    font-family: 'Quintessential', cursive;
+    font-family: "Quintessential", cursive;
     font-size: 29px;
     width: 6%;
-    margin-left:47.8%;
+    margin-left: 47.8%;
     color: #fff;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 39.8%;
+        margin-top: 30px;
+    }
+
+    @media screen and (max-width: 380px) {
+        margin-left: 33.8%;
+    }
 }
 
-.gamesheader{
+.gamesheader {
     color: #fff;
     text-shadow: 0 0 15px yellow, 0 0 25px yellow;
     animation: glow 3s linear infinite;
+
+    @media screen and (max-width: 768px) {
+        border-bottom: none;
+    }
 }
 
 @keyframes glow {
     0% {
-      filter: hue-rotate(0deg);
+        filter: hue-rotate(0deg);
     }
     100% {
-      filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
     }
-  }
+}
 
 .gamesContainer {
     height: 192px;
@@ -42,15 +74,29 @@
     align-items: center;
     border-top: solid 3px #54a0ff;
     border-bottom: solid 3px #54a0ff;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        margin-top: 25px;
+        height: 820px;
+    }
+
+    @media screen and (max-width: 380px) {
+        flex-direction: column;
+    }
 }
 
 .game {
-    width:128px;
+    width: 128px;
     height: 128px;
-    margin-left:3%;
+    margin-left: 3%;
     margin-right: 3%;
-    border:2px solid #c8d6e5;
-
+    border: 2px solid #c8d6e5;
+    
+    @media screen and (max-width: 768px) {
+        
+        margin-top: 50px;
+    }
 }
 
 .gamesImg {
@@ -60,38 +106,34 @@
 }
 
 .gamesDescription {
-    
-background: #222f3e;
+    background: #222f3e;
     width: 100%;
-    position:fixed;
+    position: fixed;
     z-index: 5;
     background: #222f3e;
     width: 1440px;
     margin-left: -742%;
-    margin-top:20px;
+    margin-top: 20px;
 
-
-   // opacity:0.82;
+    // opacity:0.82;
     font-size: 17px;
     text-align: center;
     height: 0px;
     overflow: hidden;
     transition: width 3.2s;
     transition-timing-function: ease;
-    border-radius: 27%;
+    border-radius: 9%;
     display: inline-block;
 }
 
 .gamesImg:hover {
     opacity: 0.4;
-
 }
 
-.gamesImg:hover + .gamesDescription{
+.gamesImg:hover + .gamesDescription {
     display: block;
     position: relative;
     height: 300px;
-
 }
 
 .gamesImg:hover + .games {
@@ -100,61 +142,58 @@ background: #222f3e;
 }
 
 .gamesImg:hover + .pixelArt {
-    margin-top:320px;
+    margin-top: 320px;
 }
 
 .gamesDescriptionHeader {
     color: #fff;
-    font-size:36px;
-    margin-top:-0.5%;
+    font-size: 36px;
+    margin-top: -0.5%;
     margin-left: 22%;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-style: italic;
 }
 
 .gamesDescriptionText {
     margin-top: -15%;
-    padding-left: 31%;;
+    padding-left: 31%;
     margin-inline: 4%;
     color: #fff;
     display: flex;
-    position:absolute;
-    font-size:28px;
-    font-family: 'Merriweather', serif;
+    position: absolute;
+    font-size: 28px;
+    font-family: "Merriweather", serif;
     font-style: italic;
 }
 
 .gamesDescriptionText2 {
     margin-top: -6.2%;
-    margin-left:72%;
+    margin-left: 72%;
     margin-inline: 4%;
     font-weight: 1000;
     text-decoration: underline;
-    color:#1dd1a1;
-    font-size:29px;
-    font-family: 'Merriweather', serif;
+    color: #1dd1a1;
+    font-size: 29px;
+    font-family: "Merriweather", serif;
     font-style: italic;
-
 }
 
 .descriptionImg {
-    width:33%;
+    width: 33%;
     height: 100%;
     margin-left: -1.2%;
-    margin-top:-6.8%;
+    margin-top: -6.8%;
     display: flex;
 }
 
 .third {
-    margin-left:-585%;
+    margin-left: -585%;
 }
 
 .second {
     margin-left: -427%;
 }
 
-.first{
+.first {
     margin-left: -269%;
 }
-
-

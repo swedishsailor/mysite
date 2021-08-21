@@ -1,5 +1,6 @@
 .footer {
     height:80px;
+    background: linear-gradient(270deg, rgba(116,125,140,1) 0%, rgba(87,96,111,1) 35%, rgba(51,57,71,1) 63%, rgba(47,53,66,1) 68%, rgba(47,53,66,1) 72%, rgba(47,53,66,1) 100%);
 }
 
 .footerText {
@@ -8,6 +9,10 @@
     text-align: center;
     font-family: 'Katibeh', cursive;
     color:#fff;
+
+    @media screen and (max-width: 768px) {
+      font-size: 24px;
+  }
 }
 
 .footerText{

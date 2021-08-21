@@ -3,13 +3,12 @@ import { Link as LinkR } from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll';
 
 export const Nav = styled.nav`
-background: #000;
-height: 80px;
-
+background: linear-gradient(90deg, rgba(116,125,140,1) 0%, rgba(87,96,111,1) 35%, rgba(51,57,71,1) 63%, rgba(47,53,66,1) 68%, rgba(47,53,66,1) 72%, rgba(47,53,66,1) 100%);
+height: 60px;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 18px;
+font-size: 40px;
 position: sticky;
 top:0;
 z-index:10;
@@ -30,15 +29,22 @@ max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
-color: red;
+color: #fff;
 justify-self: flex-start;
 cursor: pointer;
-font-size: 24px;
+font-size: 52px;
 display: flex;
 align-items: center;
 margin-left: 24px;
 font-weight: bold;
 text-decoration:none;
+font-family: 'Katibeh', cursive;
+margin-top:-22px;
+
+
+&:hover{
+   color: #12CBC4;
+}
 `;
 
 export const MobileIcon = styled.div`
@@ -53,6 +59,8 @@ display: none;
     font-size: 28px;
     cursor: pointer;
     color: #fff;
+    margin-top:-6px;
+    
 }
 `;
 
@@ -84,8 +92,13 @@ text-decoration: none;
 padding: 0 18px;
 height: 100%;
 cursor: pointer;
+font-family: 'Katibeh', cursive;
+margin-top:-8px;
 
 &.active {
     border-bottom: 3px solid #01bf71;
 }
+&:hover{
+    color: #12CBC4;
+ }
 `;
