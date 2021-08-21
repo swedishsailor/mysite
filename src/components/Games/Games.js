@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Games.scss';
+import {Button} from './GamesElements'; 
 
 class Games extends React.Component {
     render() {
@@ -8,7 +9,7 @@ class Games extends React.Component {
 
                 <h1 className={styles.gamesheader}> GAMES </h1>
                 <div className={styles.gamesContainer}>
-                    <div className={styles.game}><img className={styles.gamesImg1, styles.gamesImg} src="https://i.postimg.cc/hjvDLsvg/sd-Sorcerer.png"></img>
+                    <Button to="/salvedevito" className={styles.game}><img className={styles.gamesImg1, styles.gamesImg} src="https://i.postimg.cc/hjvDLsvg/sd-Sorcerer.png"></img>
                         <div className={`${styles.gamesDescription} ${styles.first}`}>
                             <br />
                             <h3 className={styles.gamesDescriptionHeader}> Salve Devito </h3>
@@ -18,7 +19,7 @@ class Games extends React.Component {
                             solve puzzles, every single thing you see is a key to something.. Don't even think about it too long just go and ask Sphinx about everyhting!*/}</p>
                             <p className={styles.gamesDescriptionText2}> Click the image for more info</p>
                         </div>
-                    </div>
+                    </Button>
                     <div className={styles.game}><img className={styles.gamesImg2, styles.gamesImg} src="https://i.postimg.cc/XNKHKWMj/dimension-eye-logo.png"></img>
                         <div className={`${styles.gamesDescription} ${styles.second}`}>
                             <br />
@@ -49,9 +50,9 @@ class Games extends React.Component {
                             <p className={styles.gamesDescriptionText2}> Click the image for more info</p>
                         </div>
                         </div>
-                    </div>
-                   
+                    </div>           
                 </div>
+                <div className={styles.underContainer}></div>
 
             </section>
         )

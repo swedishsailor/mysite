@@ -18,16 +18,16 @@ const PageNav = ({ toggle }) => (
         </MobileIcon>
         <NavMenu>
         <NavItem>
-                <NavLinks to ='aboutme'> AboutMe </NavLinks>
+                <NavLinks to ='/aboutme'> AboutMe </NavLinks>
             </NavItem>
         <NavItem>
-                <NavLinks to ='pixelart'> PixelArt </NavLinks>
+                <NavLinks to ='/pixelart'> PixelArt </NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to ='games'> Games </NavLinks>
+                <NavLinks to ='/games'> Games </NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to ='contact'> Contact </NavLinks>
+                <NavLinks to ='/contact'> Contact </NavLinks>
             </NavItem>
         </NavMenu>
         </NavbarContainer>

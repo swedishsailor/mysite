@@ -108,5 +108,6 @@ margin-top:-8px;
 }
 &:hover{
     color: #12CBC4;
+    border-bottom:2px solid #12CBC4;
  }
 `;

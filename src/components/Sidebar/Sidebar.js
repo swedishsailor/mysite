@@ -8,13 +8,16 @@ const Sidebar = ({isOpen, toggle}) => (
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='games' onClick={toggle}>
-                        Games
+                <SidebarLink to='/aboutme' onClick={toggle}>
+                        About Me
                     </SidebarLink>
-                    <SidebarLink to='pixelart' onClick={toggle}>
+                <SidebarLink to='/pixelart' onClick={toggle}>
                         PixelArt
                     </SidebarLink>
-                    <SidebarLink to='contact' onClick={toggle}>
+                    <SidebarLink to='/games' onClick={toggle}>
+                        Games
+                    </SidebarLink>
+                    <SidebarLink to='/contact' onClick={toggle}>
                         Contact
                     </SidebarLink>
                 </SidebarMenu>

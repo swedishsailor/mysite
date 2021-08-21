@@ -93,6 +93,7 @@
     margin-left: 5%;
     margin-right: 4%;
     border: 2px solid #c8d6e5;
+    cursor: pointer;
     
     @media screen and (max-width: 768px) {
         
@@ -104,28 +105,14 @@
     width: 128px;
     height: 128px;
     background: #535c68;
-}
-
-.gamesImg1 {
-
-}
-
-.gamesImg2 {
-
-}
-
-.gamesImg3 {
-
-}
-
-.gamesImg4 {
-    height: 138px;
+    z-index: 4;
 }
 
 .gamesDescription {
     position: fixed;
-    z-index: 5;
-    background: #341f97;
+    z-index: 4;
+    //background: linear-gradient(90deg, rgba(52,31,151,1) 0%, rgba(52,31,151,1) 19%, rgba(52,31,151,0) 92%);
+    background: linear-gradient(90deg, rgba(52,31,151,1) 0%, rgba(52,31,151,1) 19%, rgba(52,31,151,1) 92%);
     width: 1440px;
     margin-left: -742%;
     margin-top: 20px;
@@ -140,8 +127,22 @@
     display: inline-block;
 }
 
+.underContainer {
+    height: 250px;
+    background: linear-gradient(
+        270deg,
+        rgba(47, 53, 66, 1) 0%,
+        rgba(25, 27, 34, 1) 16%,
+        rgba(21, 23, 29, 1) 29%,
+        rgba(17, 19, 24, 1) 39%,
+        rgba(13, 15, 18, 1) 51%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    display: none;
+}
+
 .gamesImg:hover {
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 .gamesImg:hover + .gamesDescription {
@@ -150,13 +151,8 @@
     height: 280px;
 }
 
-.gamesImg:hover + .games {
-    height: 540px;
-    padding-bottom: 320px;
-}
-
-.gamesImg:hover + .pixelArt {
-    margin-top: 320px;
+.gamesImg:hover + .gamesContainer {
+    border-bottom: none;
 }
 
 .gamesDescriptionHeader {
