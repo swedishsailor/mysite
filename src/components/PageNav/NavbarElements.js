@@ -3,7 +3,15 @@ import { Link as LinkR } from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll';
 
 export const Nav = styled.nav`
-background: linear-gradient(90deg, rgba(116,125,140,1) 0%, rgba(87,96,111,1) 35%, rgba(51,57,71,1) 63%, rgba(47,53,66,1) 68%, rgba(47,53,66,1) 72%, rgba(47,53,66,1) 100%);
+background: linear-gradient(
+    270deg,
+    rgba(47, 53, 66, 1) 0%,
+    rgba(25, 27, 34, 1) 16%,
+    rgba(21, 23, 29, 1) 29%,
+    rgba(17, 19, 24, 1) 39%,
+    rgba(13, 15, 18, 1) 51%,
+    rgba(0, 0, 0, 1) 100%
+);
 height: 60px;
 display: flex;
 justify-content: center;
@@ -25,7 +33,7 @@ height: 80px;
 z-index: 1;
 width:100%;
 padding 0 24px;
-max-width: 1100px;
+max-width: 1700px;
 `;
 
 export const NavLogo = styled(LinkR)`

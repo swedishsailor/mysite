@@ -8,7 +8,7 @@ class Games extends React.Component {
 
                 <h1 className={styles.gamesheader}> GAMES </h1>
                 <div className={styles.gamesContainer}>
-                    <div className={styles.game}><img className={styles.gamesImg} src="https://i.postimg.cc/hjvDLsvg/sd-Sorcerer.png"></img>
+                    <div className={styles.game}><img className={styles.gamesImg1, styles.gamesImg} src="https://i.postimg.cc/hjvDLsvg/sd-Sorcerer.png"></img>
                         <div className={`${styles.gamesDescription} ${styles.first}`}>
                             <br />
                             <h3 className={styles.gamesDescriptionHeader}> Salve Devito </h3>
@@ -19,7 +19,7 @@ class Games extends React.Component {
                             <p className={styles.gamesDescriptionText2}> Click the image for more info</p>
                         </div>
                     </div>
-                    <div className={styles.game}><img className={styles.gamesImg} src="https://i.postimg.cc/XNKHKWMj/dimension-eye-logo.png"></img>
+                    <div className={styles.game}><img className={styles.gamesImg2, styles.gamesImg} src="https://i.postimg.cc/XNKHKWMj/dimension-eye-logo.png"></img>
                         <div className={`${styles.gamesDescription} ${styles.second}`}>
                             <br />
                             <h3 className={styles.gamesDescriptionHeader}> Dimension Eye </h3>
@@ -29,7 +29,7 @@ class Games extends React.Component {
                             <p className={styles.gamesDescriptionText2}> Click the image for quick demo :)</p>
                         </div>
                     </div>
-                    <div className={styles.game}><img className={styles.gamesImg} src="https://i.postimg.cc/nVv1J8v9/ml21.png"></img>
+                    <div className={styles.game}><img className={styles.gamesImg3, styles.gamesImg} src="https://i.postimg.cc/nVv1J8v9/ml21.png"></img>
                         <div className={`${styles.gamesDescription} ${styles.third}`}>
                             <br />
                             <h3 className={styles.gamesDescriptionHeader}> Milion Lasers </h3>
@@ -39,13 +39,13 @@ class Games extends React.Component {
                             <p className={styles.gamesDescriptionText2}> Click the image to play :)</p>
                         </div>
                     </div>
-                    <div className={styles.game}><img className={styles.gamesImg} src="https://i.postimg.cc/8PPHhrB4/Skull-avatar.png"></img>
+                    <div className={styles.game}><img className={styles.gamesImg4, styles.gamesImg} src="https://i.postimg.cc/8PPHhrB4/Skull-avatar.png"></img>
                     <div className={styles.gamesDescription}>
                         <div className={styles.gamesDescriptioninner}>
                             <br />
                             <h3 className={styles.gamesDescriptionHeader}> Salve Devito - Heroes </h3>
                             <img className={styles.descriptionImg} src="https://i.postimg.cc/PqSjVGN5/window.png"></img>
-                            <p className={styles.gamesDescriptionText}> Salve devito - heroes is a project of browser, interactive clicker game. More information soon :)</p>
+                            <p className={styles.gamesDescriptionText}> Salve devito - heroes is a project of browser, interactive clicker game. Game is in pre-pre-alpha. More information soon :)</p>
                             <p className={styles.gamesDescriptionText2}> Click the image for more info</p>
                         </div>
                         </div>
