@@ -20,7 +20,7 @@ class Games extends React.Component {
                             <p className={styles.gamesDescriptionText2}> Click the image for more info</p>
                         </div>
                     </Button>
-                    <div className={styles.game}><img className={styles.gamesImg2, styles.gamesImg} src="https://i.postimg.cc/XNKHKWMj/dimension-eye-logo.png"></img>
+                    <Button to="/dimensioneye" className={styles.game}><img className={styles.gamesImg2, styles.gamesImg} src="https://i.postimg.cc/XNKHKWMj/dimension-eye-logo.png"></img>
                         <div className={`${styles.gamesDescription} ${styles.second}`}>
                             <br />
                             <h3 className={styles.gamesDescriptionHeader}> Dimension Eye </h3>
@@ -29,8 +29,8 @@ class Games extends React.Component {
                                 {/*Dimension eye is a platformer game telling story about society of "eye power", where the strongest eye is the dimension eye, which controls physical matter, what about rest of the eyes? Find and check them out :)*/}</p>
                             <p className={styles.gamesDescriptionText2}> Click the image for quick demo :)</p>
                         </div>
-                    </div>
-                    <div className={styles.game}><img className={styles.gamesImg3, styles.gamesImg} src="https://i.postimg.cc/nVv1J8v9/ml21.png"></img>
+                    </Button>
+                    <Button to="/milionlasers" className={styles.game}><img className={styles.gamesImg3, styles.gamesImg} src="https://i.postimg.cc/nVv1J8v9/ml21.png"></img>
                         <div className={`${styles.gamesDescription} ${styles.third}`}>
                             <br />
                             <h3 className={styles.gamesDescriptionHeader}> Milion Lasers </h3>
@@ -39,8 +39,8 @@ class Games extends React.Component {
                                 {/*The main objective of this game is to control the distance bar (on the right-bottom of the screen) and try to avoid all the obstacles on your way.*/} </p>
                             <p className={styles.gamesDescriptionText2}> Click the image to play :)</p>
                         </div>
-                    </div>
-                    <div className={styles.game}><img className={styles.gamesImg4, styles.gamesImg} src="https://i.postimg.cc/8PPHhrB4/Skull-avatar.png"></img>
+                    </Button>
+                    <Button to="/sd-heroes" className={styles.game}><img className={styles.gamesImg4, styles.gamesImg} src="https://i.postimg.cc/8PPHhrB4/Skull-avatar.png"></img>
                     <div className={styles.gamesDescription}>
                         <div className={styles.gamesDescriptioninner}>
                             <br />
@@ -50,7 +50,7 @@ class Games extends React.Component {
                             <p className={styles.gamesDescriptionText2}> Click the image for more info</p>
                         </div>
                         </div>
-                    </div>           
+                    </Button>           
                 </div>
                 <div className={styles.underContainer}></div>
 
