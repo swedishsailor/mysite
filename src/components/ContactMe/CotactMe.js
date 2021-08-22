@@ -4,7 +4,7 @@ import styles from './ContactMe.scss';
 class ContactMe extends React.Component{
     render(){
         return(
-            <section className={styles.contactMeSectiom}>
+            <section className={styles.contactMeSectiom} id="/contact">
                 <h2 className={styles.header}>CONTACT ME</h2>
                 <form className={styles.form} action="https://formsubmit.co/kzygowski7@gmail.com" method="POST">
                     <input type='text' name='name' className={styles.input} placeholder='Your name' required></input>

@@ -12,22 +12,22 @@ const PageNav = ({ toggle }) => (
         <Nav>
             <NavbarContainer>
                 <MobileIcon/>
-        <NavLogo to='/'> Back </NavLogo>
+        <NavLinks to='/' smooth={true}> Back </NavLinks>
         <MobileIcon onClick={toggle}>
             <FaBars />
         </MobileIcon>
         <NavMenu>
         <NavItem>
-                <NavLinks to ='/aboutme'> AboutMe </NavLinks>
+                <NavLinks to ='/aboutme' smooth={true}> AboutMe </NavLinks>
             </NavItem>
         <NavItem>
-                <NavLinks to ='/pixelart'> PixelArt </NavLinks>
+                <NavLinks to ='/pixelart' smooth={true}> PixelArt </NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to ='/games'> Games </NavLinks>
+                <NavLinks to ='/games' smooth={true}> Games </NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to ='/contact'> Contact </NavLinks>
+                <NavLinks to ='/contact' smooth={true}> Contact </NavLinks>
             </NavItem>
         </NavMenu>
         </NavbarContainer>

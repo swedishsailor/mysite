@@ -5,7 +5,7 @@ import styles from './AboutMe.scss';
 class AboutMe extends React.Component {
     render() {
         return (
-            <section className={styles.about}>
+            <section className={styles.about} id="/aboutme">
                 <p className={styles.description}> Greetings my friend! My name is Kamil, I am 23 years old psychologist, frontend developer living in Gdańsk, Poland. 
                 <br/><span className={styles.love}> I  love </span>:  
                     <span className={styles.juggling}> juggling </span>

@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 class PixelArt extends React.Component {
     render() {
         return (
-            <section className={styles.pixelArt}>
+            <section className={styles.pixelArt} id="/pixelart">
                 <div className={styles.pixelArtContainer}>
                     <br />
                     <br />

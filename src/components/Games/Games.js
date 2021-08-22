@@ -5,7 +5,7 @@ import {Button} from './GamesElements';
 class Games extends React.Component {
     render() {
         return (
-            <section className={styles.games}>
+            <section className={styles.games} id="/games">
 
                 <h1 className={styles.gamesheader}> GAMES </h1>
                 <div className={styles.gamesContainer}>
