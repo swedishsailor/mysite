@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://swedishsailor.github.io/home",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+	"predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "src/**/*.js": "eslint"
@@ -16,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "prop-types": "^15.7.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

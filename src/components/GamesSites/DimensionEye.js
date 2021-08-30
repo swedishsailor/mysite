@@ -1,5 +1,5 @@
-import React from "react";
-import Unity, { UnityContext } from "react-unity-webgl";
+import React from 'react';
+import Unity, { UnityContext } from 'react-unity-webgl';
 
 const unityContext = new UnityContext({
     loaderUrl: 'WebDimensionEyeDEMO/Build/UnityLoader.js',
